@@ -7,7 +7,12 @@ console.log(`Вечерний уборщик, имея голос и педаг�
 console.log('Владивосток' + ' ' + 2000);
 
 // 3
-console.log(`Русалка прокрастинировала ${128 + 254 + 137 + 201} минут.`);
+let chatting = 128;
+let likingPictures = 254;
+let readingArtices = 137;
+let watchingVideos = 201;
+let timeSummary = chatting + likingPictures + readingArtices + watchingVideos;
+console.log(`Русалка прокрастинировала ${timeSummary / 60} часов и ${timeSummary % 60} минут.`);
 
 // 4
 console.log(2 ** 5);
@@ -18,10 +23,11 @@ console.log("Нужно бежать со всех ног, чтобы тольк
 // 6
 const greetings = "Привет";
 const name = "Кот";
-console.log(greetings + ", " + name);
+console.log(`${greetings}, ${name}`);
 
 // 7
 let time;
+console.log(time);
 time = 34;
 time -= 15; 
 time -=10;
